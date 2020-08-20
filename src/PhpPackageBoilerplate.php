@@ -1,8 +1,8 @@
 <?php
 
-namespace Sfneal\PhpPackageBoilerplate;
+namespace Sfneal\Helpers\Javascript;
 
-class PhpPackageBoilerplate
+class Helpers\Javascript
 {
     // Build your next great package.
 }

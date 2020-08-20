@@ -1,11 +1,11 @@
 {
-    "name": "sfneal/php-package-boilerplate",
+    "name": "sfneal/js-response-helpers",
     "description": "Boilerplate for PHP package repo's",
     "keywords": [
         "sfneal",
-        "php-package-boilerplate"
+        "js-response-helpers"
     ],
-    "homepage": "https://github.com/sfneal/php-package-boilerplate",
+    "homepage": "https://github.com/sfneal/js-response-helpers",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Sfneal\\PhpPackageBoilerplate\\": "src"
+            "Sfneal\\Helpers\\Javascript\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sfneal\\PhpPackageBoilerplate\\Tests\\": "tests"
+            "Sfneal\\Helpers\\Javascript\\Tests\\": "tests"
         }
     },
     "scripts": {
