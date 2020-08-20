@@ -1,6 +1,6 @@
 {
     "name": "sfneal/js-response-helpers",
-    "description": "Boilerplate for PHP package repo's",
+    "description": "JavaScript response helpers for PHP applications",
     "keywords": [
         "sfneal",
         "js-response-helpers"
