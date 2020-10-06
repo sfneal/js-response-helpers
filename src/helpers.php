@@ -5,7 +5,7 @@
  *
  * @return string
  */
-function reloadWindow(): string
+function reloadWindow()
 {
     return 'window.location.reload()';
 }
@@ -15,7 +15,7 @@ function reloadWindow(): string
  * @param $msg
  * @return string
  */
-function jsAlert($msg): string
+function jsAlert($msg)
 {
     return 'alert("'.$msg.'");';
 }
@@ -26,7 +26,7 @@ function jsAlert($msg): string
  * @param string $url
  * @return string
  */
-function jsOpenInNewTab(string $url): string
+function jsOpenInNewTab($url)
 {
     return "window.open('{$url}', '_blank');";
 }
@@ -37,7 +37,7 @@ function jsOpenInNewTab(string $url): string
  * @param string $message
  * @return string
  */
-function consoleLog(string $message): string
+function consoleLog($message)
 {
     return "console.log('$message');";
 }
