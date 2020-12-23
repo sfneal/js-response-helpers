@@ -22,3 +22,8 @@ All notable changes to `js-response-helpers` will be documented in this file
 - cut support for php5
 - make test suite
 - add improved type hinting
+
+
+## 0.6.0 - 2020-12-23
+- cut support for php7.0
+- bump phpunit/phpunit min version
