@@ -5,17 +5,17 @@
  *
  * @return string
  */
-function reloadWindow()
+function reloadWindow(): string
 {
     return 'window.location.reload()';
 }
 
 /**
  * Return a JavaScript alert with a message.
- * @param $msg
+ * @param string $msg
  * @return string
  */
-function jsAlert($msg)
+function jsAlert(string $msg): string
 {
     return 'alert("'.$msg.'");';
 }
@@ -26,7 +26,7 @@ function jsAlert($msg)
  * @param string $url
  * @return string
  */
-function jsOpenInNewTab($url)
+function jsOpenInNewTab(string $url): string
 {
     return "window.open('{$url}', '_blank');";
 }
@@ -37,7 +37,7 @@ function jsOpenInNewTab($url)
  * @param string $message
  * @return string
  */
-function consoleLog($message)
+function consoleLog(string $message): string
 {
     return "console.log('$message');";
 }
