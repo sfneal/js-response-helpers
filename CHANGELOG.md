@@ -16,3 +16,9 @@ All notable changes to `js-response-helpers` will be documented in this file
 
 ## 0.4.0 - 2020-12-11
 - add support for php8
+
+
+## 0.5.0 - 2020-12-23
+- cut support for php5
+- make test suite
+- add improved type hinting
