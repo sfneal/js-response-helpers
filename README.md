@@ -1,7 +1,8 @@
 # Javascript Response Helpers (for PHP applications)
 
+[![Packagist PHP support](https://img.shields.io/packagist/php-v/sfneal/js-response-helpers)](https://packagist.org/packages/sfneal/js-response-helpers)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sfneal/js-response-helpers.svg?style=flat-square)](https://packagist.org/packages/sfneal/js-response-helpers)
-[![Build Status](https://img.shields.io/travis/sfneal/js-response-helpers/master.svg?style=flat-square)](https://travis-ci.org/sfneal/js-response-helpers)
+[![Build Status](https://travis-ci.com/sfneal/js-response-helpers.svg?branch=master&style=flat-square)](https://travis-ci.com/sfneal/js-response-helpers)
 [![Quality Score](https://img.shields.io/scrutinizer/g/sfneal/js-response-helpers.svg?style=flat-square)](https://scrutinizer-ci.com/g/sfneal/js-response-helpers)
 [![Total Downloads](https://img.shields.io/packagist/dt/sfneal/js-response-helpers.svg?style=flat-square)](https://packagist.org/packages/sfneal/js-response-helpers)
 
