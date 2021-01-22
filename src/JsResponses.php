@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Sfneal\Helpers\Javascript;
-
 
 class JsResponses
 {
