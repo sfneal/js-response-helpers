@@ -1,5 +1,7 @@
 <?php
 
+use Sfneal\Helpers\Javascript\JsResponses;
+
 /**
  * Reload current page.
  *
@@ -7,7 +9,7 @@
  */
 function reloadWindow(): string
 {
-    return 'window.location.reload()';
+    return JsResponses::reloadWindow();
 }
 
 /**
@@ -17,7 +19,7 @@ function reloadWindow(): string
  */
 function jsAlert(string $msg): string
 {
-    return 'alert("'.$msg.'");';
+    return JsResponses::jsAlert($msg);
 }
 
 /**
@@ -28,7 +30,7 @@ function jsAlert(string $msg): string
  */
 function jsOpenInNewTab(string $url): string
 {
-    return "window.open('{$url}', '_blank');";
+    return JsResponses::jsOpenInNewTab($url);
 }
 
 /**
@@ -39,5 +41,5 @@ function jsOpenInNewTab(string $url): string
  */
 function consoleLog(string $message): string
 {
-    return "console.log('$message');";
+    return JsResponses::consoleLog($message);
 }
