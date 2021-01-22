@@ -27,3 +27,10 @@ All notable changes to `js-response-helpers` will be documented in this file
 ## 0.6.0 - 2020-12-23
 - cut support for php7.0
 - bump phpunit/phpunit min version
+
+
+## 1.0.0 - 2021-01-22
+- initial production release
+- update documentation
+- add JsResponses class & add use in helpers.php 
+- autoloading of helpers.php in composer.json
