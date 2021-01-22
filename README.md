@@ -17,6 +17,16 @@ You can install the package via composer:
 composer require sfneal/js-response-helpers
 ```
 
+In order to autoload to the helper functions add the following path to the autoload.files section in your composer.json.
+
+```json
+"autoload": {
+    "files": [
+        "vendor/sfneal/js-response-helpers/src/js-response-helpers.php"
+    ]
+}
+```
+
 ## Usage
 
 Javascript response helpers can be used to generate responses in http controllers.

@@ -30,7 +30,12 @@ All notable changes to `js-response-helpers` will be documented in this file
 
 
 ## 1.0.0 - 2021-01-22
-- initial production release
 - update documentation
 - add JsResponses class & add use in helpers.php 
 - autoloading of helpers.php in composer.json
+- initial production release
+
+
+## 1.0.1 - 2021-01-22
+- refactor helpers.php to js-response-helpers.php
+- add autoloading instructions to README.md

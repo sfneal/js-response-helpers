@@ -31,7 +31,7 @@
             "Sfneal\\Helpers\\Javascript\\Tests\\": "tests"
         },
         "files": [
-            "src/helpers.php"
+            "src/js-response-helpers.php"
         ]
     },
     "scripts": {
